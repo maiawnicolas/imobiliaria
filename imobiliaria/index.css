@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.fundo1 {
+    position: absolute;
+    filter: brightness(0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.nome-imobiliaria {
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 5%;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cuidar-imovel {
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 50%;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.deixe-especialistas {
+    position: absolute;
+    color: white;
+    top: 25%;
+    left: 60%;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.button1 {
+    position: absolute;
+    top: 50%;
+    left: 68%;
+}
+
+.fale-conosco1 {
+    color: white;
+    background-color: rgb(34, 124, 64);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.fale-conosco1:hover {
+    color: black;
+    background-color: #EDE9E2;
+}
+
+.sobre {
+    background-color: #A69A8B;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    top: 700px;
+}
+
+.fundo2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 60%;
+}
+
+.fundo3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 60%;
+}
+
+.texto1 {
+    position: absolute;
+    max-width: 40%;
+    max-height: 50%;
+    top: 5%;
+    left: 5%;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.texto2 {
+    position: absolute;
+    max-width: 40%;
+    max-height: 50%;
+    top: 65%;
+    left: 55%;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box-anuncios {
+    position: relative;
+    top: 700px;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #EDE9E2;
+}
+
+.anuncios-ativos {
+    position: relative;
+    padding: 0;
+    left: 5%;
+    color: #323232;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box-anuncio1 {
+    position: relative;
+    width: fit-content;
+    margin-left: 5%;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.img-anuncio1 {
+    width: 300px;
+    height: 168px;
+}
+
+.texto-container {
+    margin-top: 10px;
+}
+
+.texto-anuncio1 {
+    color: #323232;
+    margin-bottom: 10px;
+    
+}
+
+.img-anuncio2 {
+    width: 300px;
+    height: 168px;
+}
+
+.box-anuncio2 {
+    position: relative;
+    width: fit-content;
+    margin-left: 38%;
+    top: -350px;
+    background-color: white;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.texto-anuncio2 {
+    color: #323232;
+    margin-bottom: 10px;
+}
+
+.img-anuncio3 {
+    width: 300px;
+    height: 168px;
+}
+
+.box-anuncio3 {
+    position: relative;
+    width: fit-content;
+    margin-left: 70%;
+    top: -700px;
+    background-color: white;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.texto-anuncio3 {
+    color: #323232;
+    margin-bottom: 10px;
+}
+
+.sell{
+    position: relative;
+    top: 700px;
+    width: 100vh;
+    height: 100vh;
+
+}
+
+.venda{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.texto-venda1{
+    position: absolute;
+    width: 75%;
+    left: 120%;
+    top: 15%;
+    color: #323232;
+}
+
+.texto-venda2{
+    position: absolute;
+    width: 75%;
+    left: 120%;
+    top: 35%;
+    color: #323232;
+}
+
+.button2 {
+    position: absolute;
+    top: 85%;
+    left: 120%;
+    width: 75%;
+}
+
+.fale-conosco2 {
+    color: white;
+    background-color: rgb(34, 124, 64);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.fale-conosco2:hover {
+    color: black;
+    background-color: #EDE9E2;
+}
+
+.box-pqne{
+    position: relative;
+    top: 700px;
+    width: 100%;
+    height: 100vh;
+    background-color: #EDE9E2;
+}
+
+.pqne{
+    position: absolute;
+    color: #323232;
+    top: 20%;
+    left: 40%;
+}
+
+.box-15anos{
+    background-color: #323232;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.box-top10{
+    background-color: #83A46F;
+    color: #323232;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.box-500m{
+    background-color: #323232;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.box-200m{
+    background-color: #323232;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.end{
+    position: relative;
+    top: 700px;
+}
+
+.fundo-final{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    filter: brightness(0.5);
+}
+
+.contato{
+    position: absolute;
+    color: white;
+    top: 350px;
+    left: 5%;
+
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contato2{
+    position: absolute;
+    color: white;
+    top: 350px;
+    left: 60%;
+
+    font-weight: 400;
+    font-style: normal;
+}
